@@ -6,9 +6,9 @@ from streamlit_option_menu import option_menu
 
 # loading
 
-diabetes_model = pickle.load(open('C:/Users/tone/Desktop/projectITS/saved models/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/tone/Desktop/projectITS/saved models/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
 
 
 
