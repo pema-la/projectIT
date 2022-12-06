@@ -85,13 +85,13 @@ if (selected == 'Heart Disease Prediction'):
 
 
     with col1:
-        sex = st.selectbox("Chest Pain Level: 0 = No pain, 1 = Normal , 2 = mild , 3 = severe",["0","1","2","3"]) 
+        cp = st.selectbox("Chest Pain Level: 0 = No pain, 1 = Normal , 2 = mild , 3 = severe",["0","1","2","3"]) 
         
     with col2:
         thalach = st.text_input('Maximum Heart Rate achieved')
 
     with col1:
-        sex = st.selectbox("Exercise Induced Angina: 1 = Yes, 0 = No",["1","0"])
+        exang = st.selectbox("Exercise Induced Angina: 1 = Yes, 0 = No",["1","0"])
         
     with col2:
         oldpeak = st.text_input('ST depression induced by exercise') 
@@ -103,7 +103,7 @@ if (selected == 'Heart Disease Prediction'):
         ca = st.text_input('Major vessels colored by flourosopy')
 
     with col1:
-        sex = st.selectbox("thal: 0 = normal; 1 = fixed defect; 2 = reversable defect",["0","1","2"])
+        thal = st.selectbox("thal: 0 = normal; 1 = fixed defect; 2 = reversable defect",["0","1","2"])
 
         
  
