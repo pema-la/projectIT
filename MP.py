@@ -75,7 +75,7 @@ if (selected == 'Diabetes Prediction'):
 if (selected == 'Heart Disease Prediction'):
     
     st.title('Heart Disease Prediction ')
-    col1, col2, col3 = st.columns(3)
+    col1, col2 = st.columns(2)
     
     with col1:
         age = st.text_input('Age') 
@@ -83,16 +83,16 @@ if (selected == 'Heart Disease Prediction'):
     with col2:
         sex = st.text_input('Sex: 1=male ; 0=female') 
         
-    with col3:
+    with col1:
         cp = st.text_input('Chest Pain types') 
         
-    with col1:
+    with col2:
         thalach = st.text_input('Maximum Heart Rate achieved')
         
-    with col2:
+    with col1:
         exang = st.text_input('Exercise Induced Angina: 1= yes ; 0 = no')
         
-    with col3:
+    with col2:
         oldpeak = st.text_input('ST depression induced by exercise') 
 
     with col1:
@@ -101,7 +101,7 @@ if (selected == 'Heart Disease Prediction'):
     with col2:
         ca = st.text_input('Major vessels colored by flourosopy')
 
-    with col3:
+    with col1:
         thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
         
         
